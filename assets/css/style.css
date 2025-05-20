@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1135px;
+  margin: 0px auto;
+}
+
+header {
+  background-color: white;
+  display: flex;
+}
+
+header nav {
+  display: flex;
+}
+
+header img {
+  width: 240px;
+}
