@@ -1,3 +1,5 @@
+/* GÉNÉRAL RULES */
+
 * {
   box-sizing: border-box;
 }
@@ -5,17 +7,39 @@
 .container {
   width: 1135px;
   margin: 0px auto;
+  border: solid 1px red;
 }
 
+button,
+body {
+  font-family: TS-Reg, sans-serif;
+  font-size: 16px;
+}
+
+/* HEADER */
+
 header {
-  background-color: white;
+  border: solid 1px blue;
+  height: 85px;
+}
+
+header > div {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+header img {
+  height: 50px;
 }
 
 header nav {
   display: flex;
+  gap: 20px;
+  border: solid 1px green;
 }
 
-header img {
-  width: 240px;
+header nav div i {
+  gap: 80px;
 }
