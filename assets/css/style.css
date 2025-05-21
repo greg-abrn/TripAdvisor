@@ -7,7 +7,7 @@
 .container {
   width: 1135px;
   margin: 0px auto;
-  border: solid 1px red;
+  padding: 0px 20px;
 }
 
 button,
@@ -19,7 +19,6 @@ body {
 /* HEADER */
 
 header {
-  border: solid 1px blue;
   height: 85px;
 }
 
@@ -37,10 +36,17 @@ header img {
 header nav {
   display: flex;
   gap: 20px;
-  border: solid 1px green;
   align-items: center;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 18px;
+  height: 50px;
+}
+
+header nav .header-div:hover {
+  background-color: #f2f2f2;
+  height: 40px;
+  width: 150px;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
 .header-div {
@@ -49,4 +55,22 @@ header nav {
 
 nav div {
   gap: 10px;
+}
+
+.login {
+  background-color: black;
+  color: white;
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.login:hover {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: #4c4c4c;
+  cursor: pointer;
 }
