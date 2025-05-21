@@ -4,17 +4,26 @@ main p {
   margin-bottom: 30px;
 }
 
-.first-div-main {
+.navigation {
   display: flex;
   justify-content: space-between;
+  gap: 10px;
+  padding-bottom: 26px;
 }
 
-.first-div-main div {
+.navigation div {
   border: solid 1px black;
   height: 66px;
-  width: 174px;
   border-radius: 15px;
-  padding: 12px 15px;
+  padding: 15px 18px;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.navigation div:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
 }
 
 main p span {
@@ -29,4 +38,35 @@ main p span:hover {
 .second-div-main {
   display: flex;
   justify-content: space-between;
+  width: calc((100% - 38px) / 6);
+}
+
+.main-pictures {
+  height: 430px;
+
+  display: flex;
+  gap: 2px;
+}
+
+.left-bloc {
+  flex: 1;
+}
+
+.right-bloc {
+  width: 480px;
+}
+
+.up-img {
+  height: calc(50% - 1px);
+  margin-bottom: 2px;
+}
+
+.down-img {
+  height: calc(50% - 1px);
+}
+
+.main-pictures img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
