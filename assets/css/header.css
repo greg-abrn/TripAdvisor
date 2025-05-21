@@ -31,7 +31,6 @@ header nav {
 header nav .header-div:hover {
   background-color: #f2f2f2;
   height: 40px;
-
   border-radius: 20px;
   align-items: center;
   cursor: pointer;
@@ -40,6 +39,7 @@ header nav .header-div:hover {
 .header-div {
   display: flex;
   padding: 0px 10px;
+  font-weight: bold;
 }
 
 nav div {
