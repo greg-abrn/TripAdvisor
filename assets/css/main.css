@@ -25,6 +25,7 @@ main p span:hover {
   text-decoration: underline;
   cursor: pointer;
 }
+
 .second-div-main {
   display: flex;
   justify-content: space-between;
