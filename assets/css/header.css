@@ -1,0 +1,64 @@
+/* HEADER */
+
+header {
+  height: 60px;
+}
+
+header img:hover {
+  cursor: pointer;
+}
+
+header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+header img {
+  height: 40px;
+}
+
+header nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 16px;
+  height: 40px;
+}
+
+header nav .header-div:hover {
+  background-color: #f2f2f2;
+  height: 40px;
+
+  border-radius: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header-div {
+  display: flex;
+  padding: 0px 10px;
+}
+
+nav div {
+  gap: 5px;
+}
+
+.login {
+  background-color: black;
+  color: white;
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.login:hover {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: #4c4c4c;
+  cursor: pointer;
+}
