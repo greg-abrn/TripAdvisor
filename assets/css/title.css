@@ -8,3 +8,15 @@ h1 {
 h1 span {
   color: #ff5c5d;
 }
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}

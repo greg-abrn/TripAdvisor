@@ -8,7 +8,7 @@
   padding: 0px 10px;
 }
 
-.menu span:hover {
+.menu div:nth-child(1) span:hover {
   cursor: pointer;
   text-decoration: underline;
   color: #4c4c4cd6;

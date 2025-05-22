@@ -1,4 +1,4 @@
-main p {
+main > p {
   font-size: 14px;
   color: #5b5858;
   margin-bottom: 30px;

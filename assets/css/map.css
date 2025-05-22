@@ -1,0 +1,59 @@
+.first-div-map > p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: #333333d1;
+  padding-bottom: 200px;
+  line-height: 25px;
+}
+
+.map {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0px;
+}
+
+.first-div-map {
+  width: 50%;
+}
+
+.sec-div-map {
+  width: 40%;
+  border-radius: 20px;
+}
+
+.map-top {
+  height: 282px;
+  background-color: #ff5c5d;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.map-bottom img {
+  height: 190px;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.map-top button {
+  background-color: black;
+  color: white;
+  padding: 20px 15px;
+  border-radius: 15px;
+  border: none;
+}
+
+.map-top button:hover {
+  cursor: pointer;
+  background-color: #4c4c4c;
+}
+.map-top {
+  padding-left: 30px;
+  padding-top: 40px;
+}
+
+.map-top p {
+  padding-bottom: 20px;
+}
