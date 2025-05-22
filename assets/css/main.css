@@ -43,9 +43,9 @@ main p span:hover {
 
 .main-pictures {
   height: 430px;
-
   display: flex;
   gap: 2px;
+  padding-bottom: 20px;
 }
 
 .left-bloc {

@@ -1,0 +1,19 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.menu i {
+  padding: 0px 10px;
+}
+
+.menu span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #4c4c4cd6;
+}
+
+.last-i:hover {
+  cursor: pointer;
+}
