@@ -1,23 +1,47 @@
 .caroussel-section {
-  border: 2px solid blueviolet;
   margin-bottom: 200px;
+  height: 325px;
+  display: flex;
 }
 
 .left-section {
-  background-color: red;
-  height: 200px;
+  flex: 1;
+  padding-right: 30px;
+}
+
+.left-section p:nth-child(3) {
+  text-decoration: underline;
+  color: #545454;
+}
+
+.left-section p:nth-child(3):hover {
+  cursor: pointer;
 }
 
 .right-section {
-  background-color: blue;
-  height: 200px;
+  width: 75%;
+  display: flex;
+  gap: 10px;
+  overflow: scroll;
 }
 
-/* <div class="caroussel-desc">
-            <h4>Se divertir</h4>
-            <p class="desc-left-caroussel">
-              Des lieux à voir, des rues à explorer et des expériences
-              emblématiques à Paris.
-            </p>
-            <p>Tout afficher</p>
-          </div> */
+.bloc-caroussel {
+  border: 2px solid red;
+  width: calc((100% - 20px) / 3);
+  flex-shrink: 0;
+}
+
+.img-bloc {
+  height: 185px;
+  width: 100%;
+  background-color: yellow;
+}
+
+.desc-bloc {
+  height: calc(100% - 185px);
+  background-color: green;
+}
+
+.desc-left-caroussel {
+  margin: 20px 0px;
+}
