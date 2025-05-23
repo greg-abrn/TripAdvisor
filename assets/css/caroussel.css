@@ -1,5 +1,5 @@
 .caroussel-section {
-  margin-bottom: 200px;
+  margin-bottom: 50px;
   height: 325px;
   display: flex;
 }
@@ -26,20 +26,33 @@
 }
 
 .bloc-caroussel {
-  border: 2px solid red;
   width: calc((100% - 20px) / 3);
   flex-shrink: 0;
 }
 
 .img-bloc {
   height: 185px;
+}
+
+.img-bloc img {
+  height: 100%;
   width: 100%;
-  background-color: yellow;
+  object-fit: cover;
+}
+
+.img-bloc img:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 .desc-bloc {
   height: calc(100% - 185px);
-  background-color: green;
+}
+
+.desc-bloc p {
+  padding-top: 10px;
+  font-size: 14px;
+  color: #333333;
 }
 
 .desc-left-caroussel {
