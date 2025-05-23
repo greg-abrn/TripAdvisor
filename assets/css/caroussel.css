@@ -1,0 +1,23 @@
+.caroussel-section {
+  border: 2px solid blueviolet;
+  margin-bottom: 200px;
+}
+
+.left-section {
+  background-color: red;
+  height: 200px;
+}
+
+.right-section {
+  background-color: blue;
+  height: 200px;
+}
+
+/* <div class="caroussel-desc">
+            <h4>Se divertir</h4>
+            <p class="desc-left-caroussel">
+              Des lieux à voir, des rues à explorer et des expériences
+              emblématiques à Paris.
+            </p>
+            <p>Tout afficher</p>
+          </div> */
